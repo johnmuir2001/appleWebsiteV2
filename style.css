@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: avenir;
+}
+nav {
+    background-color:rgb(31, 31, 31);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    height: 60px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav div a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+}
+section:nth-child(odd) {
+    background-color: rgb(240, 240, 240);
+}
+section:first-child {
+    height: calc(100vh - 60px);
+}
+
+footer {
+    background-color:rgb(31, 31, 31);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 50px 300px;
+}
+ul {
+    list-style: none;
+}
